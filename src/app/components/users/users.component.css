@@ -1,0 +1,98 @@
+/* users.component.css */
+
+/* General layout styling */
+.lg\\:flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .lg\\:mx-12 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  
+  .mx-6 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .p-8 {
+    padding: 2rem;
+  }
+  
+  .border-10 {
+    border-width: 10px;
+  }
+  
+  .border-white {
+    border-color: white;
+  }
+  
+  .gap-8 {
+    gap: 2rem;
+  }
+  
+  .lg\\:space-y-0 {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0px * var(--tw-space-y-reverse));
+    margin-bottom: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+  }
+  
+  .space-y-8 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+  }
+  
+  .bg-\\#f0f0f0 {
+    background-color: #f0f0f0;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  /* Flex styling for form fields */
+  .md\\:flex {
+    display: flex;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+
+  
+  /* Search input styling */
+  .search-input {
+    width: 100%;
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  mat-header-cell {
+    font-weight: bold;
+  }
+  
+  mat-cell {
+    padding: 16px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  mat-paginator {
+    margin-top: 1rem;
+  }
+  
